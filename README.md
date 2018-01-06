@@ -2,6 +2,6 @@
 
 > A simple, powerful static content generator for Nuxt.js sites.
 
-------
+## Documentation
 
-*Documentation TODO*
+*Coming soon* to a repo near you
