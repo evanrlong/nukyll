@@ -1,0 +1,45 @@
+{
+  "name": "nukyll",
+  "version": "1.0.0",
+  "description": "A simple, powerful static content generator for Nuxt.js sites.",
+  "main": "dist/index.js",
+  "scripts": {
+    "format": "standard --fix",
+    "build": "npm run format && babel ./lib --out-dir ./dist",
+    "start": "npm run build && node dist/index.js",
+    "dev": "nodemon --exec npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "nuxt.js",
+    "vue.js",
+    "content",
+    "static",
+    "markdown",
+    "frontmatter",
+    "yaml",
+    "blog",
+    "posts"
+  ],
+  "author": "Evan R. Long",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanrlong/nukyll"
+  },
+  "bugs": {
+    "url": "https://github.com/evanrlong/nukyll/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.14.7",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
