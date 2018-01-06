@@ -4,4 +4,4 @@
 
 ## Documentation
 
-*Coming soon* to a repo near you
+**Coming soon** to a repo near you
