@@ -1,6 +1,6 @@
 {
   "name": "nukyll",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A simple, powerful static content generator for Nuxt.js sites.",
   "main": "dist/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "blog",
     "posts"
   ],
-  "author": "Evan R. Long",
+  "author": "Evan R. Long <mail@evanrlong.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
