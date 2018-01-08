@@ -9,7 +9,7 @@
     "start": "npm run build && node dist/index.js",
     "dev": "nodemon --exec npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "nuxt",
