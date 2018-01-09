@@ -1,3 +1,3 @@
 import nukyll from 'nukyll'
 
-nukyll.printMsg()
+console.log(nukyll.test())

@@ -1,4 +1,13 @@
 {
   "presets": ["es2015"],
-  "plugins": []
+  "plugins": [
+    ["babel-plugin-root-import", [{
+      "rootPathPrefix": "~",
+      "rootPathSuffix": "lib"
+    }, {
+      "rootPathPrefix": "@",
+      "rootPathSuffix": "test"
+    }]],
+    "istanbul"
+  ]
 }

@@ -1,6 +1,9 @@
 {
   "ignore": [
     "dist/*",
-    "examples/*"
+    "examples/*",
+    "node_modules/*",
+    ".git/*",
+    ".nyc_output"
   ]
 }
